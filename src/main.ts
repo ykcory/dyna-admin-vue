@@ -4,7 +4,6 @@ import {createPinia} from "pinia";
 import router from "./router";
 import '@arco-design/web-vue/dist/arco.css';
 import './style.css'
-import 'virtual:uno.css'
 
 import App from './App.vue'
 
