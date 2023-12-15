@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import {ref} from "vue";
-import {TableData} from "@arco-design/web-vue";
 
 defineOptions({
   name: "UserPage"
@@ -26,7 +25,13 @@ const columns = [
   }
 ]
 
-const dataSource: TableData[] = []
+const dataSource = [
+  {
+    key: "1",
+    realname: "张三",
+    phone: "13000000000"
+  }
+]
 
 </script>
 
@@ -54,7 +59,7 @@ const dataSource: TableData[] = []
         </a-col>
       </a-row>
     </a-form>
-    <a-table :columns="columns" :data="dataSource"/>
+    <a-table :columns="columns" :dataSource="dataSource"/>
   </div>
 </template>
 
