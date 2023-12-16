@@ -5,7 +5,7 @@ defineOptions({
 </script>
 
 <template>
-  <a-layout-sider>
+  <a-layout-sider class="layout-menu">
     <a-menu
       :collapsed="false"
       :default-open-keys="['0']"
@@ -23,4 +23,8 @@ defineOptions({
   </a-layout-sider>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.layout-menu {
+  background: #fff;
+}
+</style>

@@ -5,7 +5,7 @@ defineOptions({
 </script>
 
 <template>
-  <a-layout-header class="header-wrap">
+  <a-layout-header class="layout-header">
     <div class="header-left"></div>
     <a-space size="large" class="header-right">
       <a-avatar size="large">

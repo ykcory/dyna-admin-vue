@@ -35,8 +35,9 @@ defineOptions({
     padding: 15px 0 0 15px;
     .layout-page {
       height: 100%;
-      padding: 15px;
+      padding: 40px;
       overflow: auto;
+      background: #fff;
     }
   }
 }
